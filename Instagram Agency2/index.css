@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, 
+    
+}
+
+body{
+    height: 100vh;
+}
+#nav{
+    background:linear-gradient(120deg, purple, brown);
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+   font-size: 1.1rem;
+   width: 100%;
+   min-height: 70px;
+   padding-top: 25px;
+   
+    
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header ul li{
+    margin-top: 20px;
+    margin-right: 50px;
+    color: white;
+}
+
+header button{
+    min-width: 300px;
+    min-height: 50px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: brown;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+    padding:10px;
+    display: flex;
+   justify-content: center;
+}
+
+header img{
+    box-shadow: inset;
+}
+
+#article1{
+    background:linear-gradient(120deg, purple, crimson, brown);
+    color: white;
+    min-height: 400px;
+    text-align: center;
+
+   
+}
+
+.one{
+font-size: 1.3rem;
+font-family: 'Times New Roman';
+padding-top: 75px;
+padding-bottom: 30px;
+}
+.two{
+    font-size: 7.5rem;
+    font-family:'Arial Narrow Bold';
+    padding-bottom: 20px;
+    
+}
+article button{
+    min-width: 300px;
+    min-height: 50px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: brown;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 20px;
+    padding:10px;
+    
+}
+
+section{
+    min-height: 800px;
+    background-image: url(bbb.jpg);
+  
+}
+.card{
+    width: 90%;
+    /* padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; */
+  
+
+    
+}
+.card img{
+   
+    width: 600px;
+    height: 400px;
+}
+.card p{
+ 
+    color: black;
+    font-size: 1.3rem;
+    line-height: 1.2;
+
+text-align: center;    
+}
+.card h5{
+  font-weight: 500;
+    color: #012b3a;
+    font-size:2.5rem;
+   padding-top: 30px;
+   padding-bottom: 10px;
+}
+.cards{
+    background-color: #f8f9fa;
+    margin-top: -5px;
+    height: 400px;
+    width: 600px;  
+    padding-top: 50px;
+    padding-left: 50px;
+    
+    
+
+    
+}
+.card span{
+   font-weight: bold;
+   padding-bottom: 20px;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(8, 203, 203);
+}
+.img1{
+    margin-bottom: 2.5%;
+}
+.card1 .img2{
+    position: absolute;
+    left: 52%;
+    top: 85%;
+}
+
+.img4{
+    position: absolute;
+    left: 52%;
+    top: 213%;
+}
+
+aside{
+    background-color: purple;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+aside .headings h4{
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+.icons i{
+    color: white;
+    padding-top: 30px;
+   padding-right: 70px;
+   width: 120px;
+    
+    
+}
+
+.icontext span{
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 20px;
+    
+}
+
+
+.class2{
+    background-color: #f8f9fa;
+    min-height: 800px;
+}
+
+.class2 img{
+    width:450px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+
+.spancreativity{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 130px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+   
+}
+.linetext{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 50px;
+    margin-left: -150px;
+    opacity: 0;
+    
+}
+#line{
+    
+    width: 350px;
+    height: 3px;
+    background-color: white;
+    
+    
+    
+   
+
+}
+
+.imagerow{
+    display: inline-flex;
+   overflow-x: auto;
+   margin-left: 50px;
+}
+
+.imgheading{
+    color: indigo;
+    text-align: center;
+    font-weight: 1.5rem;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.draggabletext{
+    display: flex;
+    flex-direction: row;
+   
+    position: absolute;
+    top: 435%;
+    
+    
+
+}
+
+.logotext{
+    color: indigo;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.class3 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+.class3 a{
+    font-size: 1.3rem;
+}
+.class3{
+    position: relative;
+  column-count: 3;
+  max-width: 100%;
+  margin-inline-start: 2rem;
+  margin-top: -12rem;
+ 
+ 
+}
+
+.class4{
+    position: relative;
+    column-count: 3;
+    max-width: 100%;
+    margin-inline-start: 2rem;
+    margin-top: 2rem;
+}
+.class4 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+.class4 a{
+    font-size: 1.3rem;
+}
+
+.client{
+    background-color:#5f0e38;
+    min-height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.client h3,
+h1{
+    color: white;
+} 
+
+.client h3{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+.client h1{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.prev1{
+    position: absolute;
+    padding-left: 150px;
+    font-size:1.2rem;
+    color: white;
+    padding-top: 70px;
+
+}
+.next1{
+   position: absolute;
+  padding-left: 75rem;
+  margin-top: -4rem;
+  color: white;
+  
+}
+
+.brandQ{
+    min-height: 600px;
+     background: linear-gradient(120deg, purple, crimson, brown);
+     position: relative;
+     width: 100%;
+     
+ }
+ .brandQ h3,
+         h1{
+             text-align: center;
+         }
+ .brandQ h3{
+     color: white;
+     font-weight: bold;
+     font-size: 2rem;
+     padding: 2rem;
+ }
+ 
+ .brandQ h1{
+     font-size: 5rem;
+ }
+ .accordion-item{
+ color: white;
+ position: relative;
+ 
+ column-count: 2;
+ 
+ margin-inline: 5rem;
+ }
+ 
+ #brandnext{
+     margin-right: 1rem;
+ }
+ 
+ 
+ .accordion-item-body-content{
+ font-size: 1rem;
+ padding-top: 1.5rem;
+ }
+ 
+ 
+ .accordion-item-title{
+     padding-top: 2.5rem;
+     font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem)
+ } 
+ 
+ .divider{
+    width: 90%;
+     height: 1.5px;
+     margin: 10px 0 10px 0;
+     background-color: white;
+ }
+ 
+ 
+ .accordion-item-body{
+     position: relative;
+     max-height: 0;
+     overflow: hidden;
+     transition: (0.3s, ease-out);
+     overflow-y: auto;
+ }
+ .portfolio{
+    height: 700px;
+ 
+    background: white;
+margin-top: 2rem;
+color:navy;
+left: 10%;
+
+}
+.portfolio h5{
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-left: 40%;
+
+}
+.portfolio h4{
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 30%;
+}
+.portfolio img{
+    width: 200px;
+    height: 200px;
+    
+}
+.portfolio-image{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    left:20%;
+}
+
+.get-in-touch{
+    background: linear-gradient(120deg, orchid, lightcoral );
+    height: 700px;
+    text-align: center;
+    position: relative;
+}
+
+.get-in-touch h6{
+padding-top: 5rem;
+color:#012b3a;
+font-size: 2rem;
+font-weight: 500;
+}
+
+.get-in-touch h5{
+  
+    color:#012b3a;
+    font-size: 3rem;
+    font-weight: bold;
+    }
+
+
+    .get-in-touch h4{
+        color:brown;
+        font-size: 5rem;
+        font-weight: bold;
+        }
+
+input{
+   width: 600px;
+    height: 50px;
+    background-color: transparent;
+    /* padding-top: 2rem; */
+    border: 1px solid #012b3a;
+    padding: 7px 20px;
+    margin: 10px;
+   
+}
+
+input::placeholder{
+    font-weight: bold;
+    color: #012b3a;
+    
+    padding:1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+#message{
+    width: 1220px;
+    height: 100px;
+}
+
+#submit{
+    position: relative;
+    background-color: brown;
+    color: white;
+    min-width: 150px;
+    min-height: 50px;
+    left: -40%;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+.footer{
+    background-color:indigo;
+    min-height: 70px;
+    color: white;
+    font-weight: bold;
+    
+    
+ 
+}
+.privacy{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+/* 
+CSS */
+li:hover{
+    color:aqua;
+    font-weight: bold;
+}
+#underline:hover{
+   
+    border-bottom: 3px solid aqua;
+}
+#get:hover{
+    background-color:rgba(0, 0, 0, 0.4)
+}
+
+#book:hover{
+    background-color: burlywood;
+}
+ .card img:hover{
+    transform:translateY(180deg);
+    transform: scale(0.8);
+    transition: 1s ease-in;
+}
