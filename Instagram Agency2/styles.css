@@ -158,7 +158,7 @@ text-align: center;
 .img4{
     position: absolute;
     left: 52%;
-    top: 210%;
+    top: 225%;
 }
 
 aside{
@@ -243,9 +243,10 @@ color: white;
 } */
 
 .imagerow{
+    margin-left: 8%;
     width: 900px;
     display: flex;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 .image-slide{
 width: 100%;
@@ -253,8 +254,12 @@ display: grid;
 grid-template-columns: auto auto auto auto;
 grid-gap:20px;
 padding: 10px;
+
 }
 
+.imagerow img{
+    width: 200px;
+}
 
 .imagerow::-webkit-scrollbar{
      display: none; 
